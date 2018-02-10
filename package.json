@@ -5,7 +5,18 @@
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-scripts": "1.1.1"
+    "react-scripts": "1.1.1",
+    "react-router-dom": "^4.2.2",
+    "react-redux": "^5.0.6",
+    "redux-logger":"^3.0.6",
+    "redux-thunk": "^2.2.0",
+    "redux": "^3.7.2",
+    "axios": "^0.17.1",
+    "semantic-ui-react": "^0.77.1",
+    "react-google-maps": "^9.4.5",
+    "recompose":"^0.26.0",
+    "firebase": "^4.9.1"
+
   },
   "scripts": {
     "start": "react-scripts start",
