@@ -5,7 +5,7 @@ import {conf} from "../../conf/conf";
 import {MarkerClusterer} from "react-google-maps/lib/components/addons/MarkerClusterer";
 
 /** Load API KEY in production mode **/
-let url = "https://maps.googleapis.com/maps/api/js?key=" + conf.google + "&v=3.exp&libraries=geometry,drawing,places"
+let url = "https://maps.googleapis.com/maps/api/js?key=" + conf.google + "&v=3.exp&libraries=geometry,drawing,places";
 if (process.env.NODE_ENV === `development`) {
     url = "https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places"
 }

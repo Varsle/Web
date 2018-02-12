@@ -4,7 +4,7 @@ import { withScriptjs, withGoogleMap, GoogleMap, Marker } from "react-google-map
 import {conf} from "../../conf/conf";
 
 /** Load API KEY in production mode **/
-let url = "https://maps.googleapis.com/maps/api/js?key=" + conf.google + "&v=3.exp&libraries=geometry,drawing,places"
+let url = "https://maps.googleapis.com/maps/api/js?key=" + conf.google + "&v=3.exp&libraries=geometry,drawing,places";
 if (process.env.NODE_ENV === `development`) {
     url = "https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places"
 }
