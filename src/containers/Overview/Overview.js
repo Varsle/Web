@@ -3,7 +3,7 @@ import {Grid} from 'semantic-ui-react'
 import {Loading} from '../../components/Loading/Loading';
 import {Items} from '../../components/Items/Items';
 import {StatsMap} from "../../components/Items/StatsMap";
-import {firebase} from "../../_data/firebase";
+import {firebase} from "../../_data/firebase/index";
 
 class Overview extends Component {
     constructor(props) {

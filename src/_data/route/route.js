@@ -2,7 +2,7 @@ import React from 'react';
 import {Route, Switch} from 'react-router-dom';
 import {NotFound} from "../../components/NotFound/NotFound";
 import {HomePage} from "../../containers/HomePage/HomePage";
-import {Overview} from "../../components/Overview/Overview";
+import {Overview} from "../../containers/Overview/Overview";
 import {categories} from "../constants";
 
 
