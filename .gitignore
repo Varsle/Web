@@ -6,6 +6,7 @@
 /src/conf
 # dependencies
 /node_modules
+yarn.lock
 
 # Binaries for programs and plugins
 *.exe
